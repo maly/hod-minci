@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="7ZHBdwT$ybLGh5WCe)5{" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=",;#gxkK-vIWb%~O1Wcly"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_forever" id="E4K(Z/+8!TSj82lu:ehd" x="205" y="0"></block><block type="device_gesture_event" id="[FTcag4sQW/3COCx4pz5" x="379" y="-4"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="z2.E5k,al!vobStL:k=K"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="yoxf)YR[vaTGDuPToZ2z"></block></value><statement name="DO0"><block type="basic_show_icon" id="vl2u:Naw[kjJ?5sh=g,4"><field name="i">IconNames.Happy</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="guTV5Xp%3;hB9$c3S;|j"><field name="i">IconNames.Sad</field></block></statement><next><block type="device_pause" id="aM3fttf)K!k{W]]F(hl5"><value name="pause"><shadow type="timePicker" id="!!IvuKhrKw^`*)4mxc/~"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="428KppQh7]gM3q=`PJXL"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block></xml>
